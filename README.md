@@ -12,7 +12,7 @@ Offline perception project using Python, OpenCV and NumPy. The pipeline highligh
 
 ## Run on Windows PowerShell
 
-Input videos are supplied separately. Place the daylight files at `video_source/l1.mp4` and `video_source/l2.mp4`, and the rain file at `test/rain_dark.mp4`. The recorded metrics are included for reference; input footage and generated media remain local and are excluded by `.gitignore`.
+The repository includes the daylight inputs at `video_source/l1.mp4` and `video_source/l2.mp4`, the rain input at `test/rain_dark.mp4`, generated media in `outputs/`, and recorded results in `metrics/`. Source and generated videos are intentionally tracked. Local Python environments, caches, credentials and machine-specific settings are excluded by `.gitignore`.
 
 Run from this project directory:
 
@@ -38,7 +38,7 @@ Process all frames of both configured videos by omitting `--seconds`. Process a 
 .\.venv\Scripts\python.exe codes/lka_pipeline.py --video video_source/l1.mp4 --start 10 --seconds 20
 ```
 
-Each run replaces the outputs and metrics for that clip. The MP4 contains the original frame rate and resolution, without audio. Create the virtual environment locally using the commands above; activation is unnecessary with these commands. Source footage and generated media are not included in the public repository.
+Each run replaces the outputs and metrics for that clip. The MP4 contains the original frame rate and resolution, without audio. Create the virtual environment locally using the commands above; activation is unnecessary with these commands. Review regenerated videos and metrics in GitHub Desktop before committing them.
 
 ## Method
 

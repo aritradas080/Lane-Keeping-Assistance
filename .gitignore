@@ -1,0 +1,53 @@
+# Local Python environments and build/cache files
+.venv/
+venv/
+env/
+.env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Credentials and private configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+.aws/
+.ssh/
+.azure/
+.config/gcloud/
+credentials.json
+credentials.*.json
+client_secret*.json
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+.netrc
+_netrc
+.pypirc
+
+# Machine-specific files and local notes
+.vscode/
+.idea/
+.agents/
+.codex/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.bak
+/local_private/
+/lane_keeping_assist_project_context.md
+
+# Source videos, annotated videos, previews and metrics are intentionally tracked.
