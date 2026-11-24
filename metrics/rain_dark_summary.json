@@ -1,0 +1,44 @@
+{
+  "source": "test/rain_dark.mp4",
+  "frames": 1123,
+  "duration_s": 37.43333333333333,
+  "processing_fps": 1.4213839188055442,
+  "config": {
+    "source": [
+      [
+        0.425,
+        0.7
+      ],
+      [
+        0.535,
+        0.7
+      ],
+      [
+        0.68,
+        0.94
+      ],
+      [
+        0.34,
+        0.94
+      ]
+    ],
+    "vehicle_reference_x": 0.5,
+    "reference_note": "Assumed centred, forward-facing camera; not physically calibrated.",
+    "evaluation_y": 0.91,
+    "description": "Wet forest road, low light, solid yellow centre and white edge; speed humps, wipers, reflections and embedded player controls. Hood excluded."
+  },
+  "note": "Detection availability and fit diagnostics, not labelled accuracy. Confidence is heuristic.",
+  "left": {
+    "detected": 0.40071237756010686,
+    "carried over": 0.08993766696349065,
+    "missing": 0.5093499554764025,
+    "mean_confidence": 0.39613268032056986
+  },
+  "right": {
+    "detected": 0.13802315227070347,
+    "carried over": 0.09884238646482636,
+    "missing": 0.7631344612644702,
+    "mean_confidence": 0.15198049866429206
+  },
+  "offset_available_fraction": 0.11219946571682991
+}

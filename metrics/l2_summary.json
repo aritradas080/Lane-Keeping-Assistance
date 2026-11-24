@@ -1,0 +1,44 @@
+{
+  "source": "video_source/l2.mp4",
+  "frames": 726,
+  "duration_s": 24.2,
+  "processing_fps": 1.4737764387165,
+  "config": {
+    "source": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.65,
+        0.7
+      ],
+      [
+        0.7,
+        0.99
+      ],
+      [
+        0.26,
+        0.99
+      ]
+    ],
+    "vehicle_reference_x": 0.5,
+    "reference_note": "Assumed centred, forward-facing camera; not physically calibrated.",
+    "evaluation_y": 0.94,
+    "description": "Daylight rural road; double yellow and solid white; hills, bends, rock faces and shadows."
+  },
+  "note": "Detection availability and fit diagnostics, not labelled accuracy. Confidence is heuristic.",
+  "left": {
+    "detected": 1.0,
+    "carried over": 0.0,
+    "missing": 0.0,
+    "mean_confidence": 0.8835283746556475
+  },
+  "right": {
+    "detected": 1.0,
+    "carried over": 0.0,
+    "missing": 0.0,
+    "mean_confidence": 0.9594333333333335
+  },
+  "offset_available_fraction": 1.0
+}

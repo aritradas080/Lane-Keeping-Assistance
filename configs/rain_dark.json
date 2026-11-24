@@ -1,0 +1,9 @@
+{
+  "rain_dark.mp4": {
+    "source": [[0.425, 0.70], [0.535, 0.70], [0.68, 0.94], [0.34, 0.94]],
+    "vehicle_reference_x": 0.5,
+    "reference_note": "Assumed centred, forward-facing camera; not physically calibrated.",
+    "evaluation_y": 0.91,
+    "description": "Wet forest road, low light, solid yellow centre and white edge; speed humps, wipers, reflections and embedded player controls. Hood excluded."
+  }
+}

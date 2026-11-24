@@ -1,0 +1,16 @@
+{
+  "l1.mp4": {
+    "source": [[0.40, 0.70], [0.64, 0.70], [0.77, 0.99], [0.28, 0.99]],
+    "vehicle_reference_x": 0.5,
+    "reference_note": "Assumed centred, forward-facing camera; not physically calibrated.",
+    "evaluation_y": 0.94,
+    "description": "Daylight rural road; double yellow left boundary, solid white right edge; bends and shadows."
+  },
+  "l2.mp4": {
+    "source": [[0.40, 0.70], [0.65, 0.70], [0.70, 0.99], [0.26, 0.99]],
+    "vehicle_reference_x": 0.5,
+    "reference_note": "Assumed centred, forward-facing camera; not physically calibrated.",
+    "evaluation_y": 0.94,
+    "description": "Daylight rural road; double yellow and solid white; hills, bends, rock faces and shadows."
+  }
+}

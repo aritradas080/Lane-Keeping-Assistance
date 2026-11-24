@@ -1,0 +1,18 @@
+{
+  "l1.mp4": {
+    "decoded_frames": 628,
+    "csv_rows": 628,
+    "source_frames": 628,
+    "resolution_ok": true,
+    "fps_ok": true,
+    "frame_count_ok": true
+  },
+  "l2.mp4": {
+    "decoded_frames": 726,
+    "csv_rows": 726,
+    "source_frames": 726,
+    "resolution_ok": true,
+    "fps_ok": true,
+    "frame_count_ok": true
+  }
+}

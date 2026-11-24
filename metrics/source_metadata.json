@@ -1,0 +1,16 @@
+{
+  "l1.mp4": {
+    "fps": 30.0,
+    "frames": 628,
+    "duration_s": 20.933333333333334,
+    "width": 1918,
+    "height": 1078
+  },
+  "l2.mp4": {
+    "fps": 30.0,
+    "frames": 726,
+    "duration_s": 24.2,
+    "width": 1912,
+    "height": 1078
+  }
+}

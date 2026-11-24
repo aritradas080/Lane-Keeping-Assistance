@@ -1,0 +1,10 @@
+{
+  "decoded_frames": 1123,
+  "csv_rows": 1123,
+  "source_frames": 1123,
+  "frame_count_ok": true,
+  "resolution_ok": true,
+  "fps_ok": true,
+  "offsets_finite": true,
+  "offset_requires_fresh_boundaries": true
+}
